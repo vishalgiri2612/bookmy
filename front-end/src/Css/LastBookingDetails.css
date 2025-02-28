@@ -1,0 +1,124 @@
+/* Movie-Making Theme Styles */
+.last_booking_details_container {
+  padding: 20px;
+  border-radius: 10px;
+  border: 5px solid #ffcc00; /* Gold border for a cinematic feel */
+  background-color: #1a1a1a; /* Dark background */
+  box-shadow: 0 4px 15px rgba(255, 204, 0, 0.3); /* Gold shadow */
+  color: #ffffff; /* White text */
+}
+
+.last_booking_details_container_main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.last_booking_details_header {
+  font-size: 26px;
+  margin-bottom: 15px;
+  color: #ffcc00; /* Gold color for headers */
+  font-family: 'Cinzel', serif; /* Cinematic font */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.seats_container {
+  margin-bottom: 15px;
+}
+
+.seats_header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #ffcc00; /* Gold color */
+}
+
+.seats_container .seats {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.seat_value {
+  width: 60px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #333333; /* Dark seat background */
+  color: #ffffff; /* White text */
+  text-align: center;
+  font-weight: 500;
+  border: 1px solid #ffcc00; /* Gold border */
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.seat_value:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  background-color: #ffcc00; /* Gold background on hover */
+  color: #1a1a1a; /* Dark text on hover */
+}
+
+.slot,
+.movie {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffcc00; /* Gold color */
+}
+
+.slot span,
+.movie span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff; /* White text */
+}
+
+.last_booking_details_container .no_previous_booking_msg {
+  font-size: 18px;
+  color: #ffcc00; /* Gold color */
+  text-align: center;
+  font-style: italic;
+}
+
+/* Background and Global Styles */
+body {
+  background-size: cover;
+  background-position: center;
+  font-family: 'Roboto', sans-serif; /* Default font */
+  color: #ffffff; /* White text */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Cinematic Button */
+.BN-btn {
+  background-color: #ffcc00; /* Gold background */
+  color: #1a1a1a; /* Dark text */
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.BN-btn:hover {
+  background-color: #e6b800; /* Darker gold on hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Movie-themed Typography */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Cinzel', serif; /* Cinematic font for headings */
+  color: #ffcc00; /* Gold color */
+}

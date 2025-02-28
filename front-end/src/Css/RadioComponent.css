@@ -1,0 +1,54 @@
+/* Movie-Themed Styling */
+.form-check-label.active {
+  background-color: rgba(255, 0, 0, 0.85); /* Cinematic red */
+  font-weight: 700;
+  user-select: none;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(255, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.form-check-label.inactive {
+  user-select: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  text-align: center;
+  border-radius: 5px;
+  color: #ccc;
+  transition: all 0.3s;
+}
+
+.inactive:hover {
+  background-color: rgba(255, 0, 0, 0.85);
+  opacity: 1;
+  box-shadow: 0px 0px 15px rgba(255, 0, 0, 0.7);
+}
+
+.form-check-label {
+  padding: 12px 18px;
+  font-size: 20px;
+  border: 2px solid rgb(255, 0, 0);
+  margin: 10px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  text-transform: uppercase;
+  font-family: 'Cinzel', serif;
+}
+
+.text {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .form-check-label {
+      margin: 5px;
+      font-size: 16px;
+      padding: 10px;
+  }
+}
